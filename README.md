@@ -1,5 +1,9 @@
 # ZMK Firmware for Ergonaut One keyboard
 
+> Этой мой новый, обновленный репозиторий. 
+> Старый тут — https://github.com/isayev-ivan/ergonaut-one-firmware
+
+
 This is a repository for a ZMK Firmware for Ergonaut One keyboard.
 
 ## Default keymap
