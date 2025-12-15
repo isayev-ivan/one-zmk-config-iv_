@@ -1,6 +1,7 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
-  default:
-  - {t: ']', h: Gui}
+  mac_default_ru:
+  - AltGr+H
   - Q
   - W
   - E
@@ -12,19 +13,19 @@ layers:
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
+  - {t: '`', h: LEFT ALT}
   - A
   - S
   - D
-  - F
+  - {t: F, h: symbol_right}
   - G
   - H
-  - J
+  - {t: J, h: symbol_left}
   - K
   - L
   - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - {t: '''', h: RIGHT ALT}
+  - {t: ']', h: LEFT CONTROL}
   - Z
   - X
   - C
@@ -34,16 +35,212 @@ layers:
   - M
   - ','
   - .
-  - /
-  - {t: \, h: Alt}
+  - {t: AltGr+Sft+/, s: '!'}
+  - {t: AltGr+/, h: RIGHT CONTROL}
   - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
-  lower:
-  - {t: F1, h: Gui}
+  - {t: ⏎, h: LEFT META}
+  - {t: ESCAPE, h: RIGHT META}
+  - {t: BACKSPACE, h: Shift}
+  - {t: '&mac_to_en', h: raise}
+  mac_en:
+  - $
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - {t: '&', h: LEFT ALT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''''
+  - {t: '"', h: RIGHT ALT}
+  - {t: \, h: LEFT CONTROL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '&mac_to_ru', h: raise}
+  raise:
+  - settings
+  - KP SLASH
+  - '9'
+  - '8'
+  - '7'
+  - KP MINUS
+  - Vol Up
+  - Home
+  - ↑
+  - End
+  - PREVIOUS
+  - settings
+  - {t: '=', h: LEFT ALT}
+  - KP MULTIPLY
+  - '3'
+  - '2'
+  - '1'
+  - '0'
+  - MUTE
+  - ←
+  - ↓
+  - →
+  - PLAY PAUSE
+  - {t: CAPSLOCK, h: RIGHT ALT}
+  - {t: ▽, type: trans}
+  - KP DOT
+  - '6'
+  - '5'
+  - '4'
+  - KP PLUS
+  - Vol Down
+  - PAGE UP
+  - Sft+Gui+4
+  - Page Down
+  - ⏭️
+  - Sft+Gui+6
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  symbol_right:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mg_dot'
+  - AltGr+9
+  - AltGr+0
+  - AltGr+E
+  - _
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - AltGr+;
+  - AltGr+7
+  - {t: (, s: AltGr+Sft+6}
+  - {t: ), s: AltGr+Sft+7}
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - AltGr+[
+  - AltGr+]
+  - '!'
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  symbol_left:
+  - AltGr+H
+  - AltGr+N
+  - '%'
+  - {t: '#', s: AltGr+I}
+  - '&mg_comma'
+  - AltGr+F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
+  - {t: '=', s: AltGr+J}
+  - {t: '-', s: AltGr+K}
+  - {t: AltGr+6, s: AltGr+L}
+  - AltGr+Sft+;
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - AltGr+\
+  - '@'
+  - AltGr+Sft+-
+  - AltGr+-
+  - AltGr+`
+  - AltGr+Sft+`
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  settings:
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - Reset
+  - Boot
+  - Boot
+  - Reset
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - F1
   - F2
   - F3
   - F4
@@ -55,119 +252,89 @@ layers:
   - F10
   - F11
   - F12
-  - {t: +, h: Ctrl}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
-  - ↓
-  - Page Down
-  - Pause Break
-  - Alt
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  adjust:
-  - Boot
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Boot
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
-  - BT 5
-  - BT 4
-  - BT 3
-  - BT 2
-  - BT 1
-  - BT CLR
-  - Reset
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
-  - {type: held}
-  - ''
   - {type: held}
   - ''
   - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '6':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [5, 4]
+  k: Alt+Sft+[
+  l: [mac_default_ru, mac_en]
+- p: [6, 7]
+  k: Alt+Sft+]
+  l: [mac_default_ru, mac_en]
+- p: [28, 27]
+  k: (
+  l: [mac_default_ru, mac_en]
+- p: [31, 32]
+  k: )
+  l: [mac_default_ru, mac_en]
+- p: [16, 17]
+  k: Alt+[
+  l: [mac_default_ru, mac_en]
+- p: [18, 19]
+  k: Alt+]
+  l: [mac_default_ru, mac_en]
+- p: [15, 16]
+  k: '-'
+  l: [mac_default_ru, mac_en]
+- p: [19, 20]
+  k: Sft+-
+  l: [mac_default_ru, mac_en]
+- p: [3, 4]
+  k: Sft+AltGr+'
+  l: [mac_default_ru, mac_en]
+- p: [7, 8]
+  k: AltGr+'
+  l: [mac_default_ru, mac_en]
+- p: [28, 29]
+  k: Sft+AltGr+<
+  l: [mac_default_ru, mac_en]
+- p: [31, 30]
+  k: Sft+AltGr+>
+  l: [mac_default_ru, mac_en]
